@@ -1,27 +1,63 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 💻 Sobre 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O objetivo do projeto é criar uma aplicação de Timer para controlar o tempo de atividade do usuário.
 
-## Expanding the ESLint configuration
+--- 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🚀 Link do projeto hospedado na Vercel (clique para entrar)
 
-- Configure the top-level `parserOptions` property like this:
+<a href="https://ignite-timer-three-ashy.vercel.app/" target="_blank" rel="external">
+<img src="src/assets/background.png" height="400" width="800" alt="Imagem do Projeto">
+</a>
+<h2>Link: <a href="https://ignite-timer-three-ashy.vercel.app/" target="_blank" rel="external">Acesse aqui</a></h2>
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+
+--- 
+
+## 💻 Pré-requisitos
+
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+* Você tem uma máquina `<Windows / Linux / Mac>`
+* Você instalou a versão mais recente do `NodeJS`
+
+
+## ⚙️ Instalando
+
+Para instalar execute no terminal:
+
+npm:
+```
+npm i
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+yarn:
+```
+yarn install
+```
+
+## 🚀 Rodando o projeto
+
+Para rodar o projeto, execute no terminal:
+
+npm:
+```
+npm run dev
+```
+yarn:
+```
+yarn dev
+```
+
+## 🚀 Tecnologias utilizadas
+
+O projeto está desenvolvido utilizando as seguintes tecnologias:
+
+- ReactJS <img width="20px" height="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+- Styled Components
+--- 
+
+
+
